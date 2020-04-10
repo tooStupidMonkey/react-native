@@ -1,0 +1,17 @@
+{
+  "name": "todoo",
+  "displayName": "todoo",
+  "expo": {
+    "name": "todoo",
+    "slug": "todoo",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
