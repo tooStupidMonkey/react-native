@@ -67,7 +67,6 @@ const styles = StyleSheet.create({
     container: {
         justifyContent: 'center',
         alignItems: 'center',
-        height: Dimensions.get('window').height,
     },
     noteTitle: {
         width: Dimensions.get('window').width,
