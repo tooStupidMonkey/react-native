@@ -11,6 +11,7 @@ import ErrorComponent from '@/components/common/ErrorComponent';
 import { createStackNavigator } from '@react-navigation/stack';
 import { navigationRef } from '#/RootNavigation';
 import GeoLocationComponent from '@/components/common/GeoLocationComponent';
+import MainBlockStyles from '@/styles';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -18,7 +19,7 @@ const Tab = createBottomTabNavigator();
 
 function TabNavigation() {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator tabBarOptions={{tabStyle: MainBlockStyles.justifyContentCenter}}>
       <Tab.Screen name="Notes List" component={Notes} />
       <Tab.Screen name="AddNotes" component={AddNotes} />
       <Tab.Screen name="Other" component={GeoLocationComponent} />

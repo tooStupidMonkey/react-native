@@ -13,11 +13,9 @@ class AddNotes extends Component {
 
 
     addNote = () => {
-        let index = this.props.notes.length - 1;
+        let index = this.props.notes.length;
     
-        if (index < 0) {
-            index = 0
-        } else {
+        if (index) {
             index = index + 1;
         }
 

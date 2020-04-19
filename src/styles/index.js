@@ -50,6 +50,9 @@ const MainBlockStyles = StyleSheet.create({
       justifyContent: 'flex-end',
       alignItems: 'center'
     },
+    justifyContentCenter: {
+      justifyContent: 'center'
+    },
     flexRowSpaceBetween: {
       flexDirection: 'row',
       justifyContent: 'space-between',
