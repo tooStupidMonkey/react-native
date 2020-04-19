@@ -36,10 +36,6 @@ function MyStack() {
 }
 
 export default class App extends React.Component {
-  state = {
-    authMethod: null,
-    authorized: false
-  }
 
   render() {
 
